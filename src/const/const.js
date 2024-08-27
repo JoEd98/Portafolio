@@ -104,7 +104,7 @@ export const skills = [
 export const projects = [
 
   {
-    img: "../../../img/sistemas.png",
+    img: "/portafolio/img/sistemas.png",
     title: "Departamento de Sistemas",
     link: "https://sistemas.azc.uam.mx/",
     description: `Administrador de tareas con drag and drop autenticación con Clerk , shadcn.  "En Desarrollo "`,
