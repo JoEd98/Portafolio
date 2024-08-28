@@ -38,7 +38,8 @@ export const IconKeys = {
   nodejs: "nodejs",
   mongodb: "mongodb",
   vite: "vite",
-  sveltekit : "Sveltekit"
+  sveltekit : "sveltekit",
+  mariaDB : "mariaDB",
   // here add more icon keys
 };
 
@@ -99,6 +100,16 @@ export const skills = [
     title: "Mongo Db",
     icon: IconKeys.mongodb,
   },
+
+  {
+    title: "SvelteKit",
+    icon: IconKeys.sveltekit,
+  },
+
+  {
+    title: "MariaDB",
+    icon: IconKeys.mariaDB,
+  }
 ];
 
 export const projects = [
@@ -107,22 +118,33 @@ export const projects = [
     img: "/portafolio/img/sistemas.png",
     title: "Departamento de Sistemas",
     link: "https://sistemas.azc.uam.mx/",
-    description: `Administrador de tareas con drag and drop autenticación con Clerk , shadcn.  "En Desarrollo "`,
+    description: `El Departamento de Sistemas se estableció en 1974 para atender las necesidades de nueve licenciaturas, incluida Ingeniería Industrial.`,
     technologies: [
-      {
-        icon: IconKeys.html,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.css,
-      },
       {
         icon: IconKeys.git,
       },
       {
         icon: IconKeys.nodejs,
+      },
+      {
+        icon: IconKeys.sveltekit,
+      },
+    ],
+  },
+  {
+    img: "/portafolio/img/ia.png",
+    title: "Página de Ejemplos IA",
+    link: "https://jose-eduardo-hrz.github.io/Inteligencia-Artificial/",
+    description: `Se pretende Explicar los conceptos básicos y métodos matemáticos de la inteligencia artificial aplicables en la solución de problemas complejos en donde la solución algorítmica exacta o no existe o es costosa su aplicación.`,
+    technologies: [
+      {
+        icon: IconKeys.html,
+      },
+      {
+        icon: IconKeys.css,
+      },
+      {
+        icon: IconKeys.javaScript,
       },
     ],
   },
