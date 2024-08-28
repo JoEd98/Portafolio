@@ -11,7 +11,6 @@ import { getIconComponent } from "../../../icons/IconAll.astro";
       {
         skills.map(({ icon, title }) => {
           const IconComponent = getIconComponent(icon);
-          console.log( IconComponent );
           
           return (
             <li class="li-skills">
